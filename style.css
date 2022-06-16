@@ -1,0 +1,80 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "lexend deca";
+    font-weight: 400;
+}
+
+.cars {
+    display: flex;
+}
+
+div {
+    padding: 2em;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 15px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    width: 100%;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    width: 100%;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    width: 100%;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    border-radius: 30%;
+    font-family: "lexend deca";
+    font-weight: 400;
+}
+
+#sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+#grid {
+    color: black;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-color: black;
+    }
+}

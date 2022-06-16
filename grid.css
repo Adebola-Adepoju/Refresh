@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(235, 231, 231);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+        "A A A B B"
+        "A A A B B"
+        "C C D D D"
+        "C C E E E";
+
+    gap: 15px;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+main div {
+    padding: 2em;
+    text-align: center;
+}
+
+.Item_A {
+    background-color: orangered;
+    grid-area: A;
+}
+
+.Item_B {
+    background-color: orange;
+    grid-area: B;
+}
+
+.Item_C {
+    background-color: green;
+    grid-area: C;
+}
+
+.Item_D {
+    background-color: rgb(59, 150, 224);
+    grid-area: D;
+}
+
+.Item_E {
+    background-color: rgb(59, 150, 224);
+    grid-area: E;
+}
